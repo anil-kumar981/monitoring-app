@@ -1,5 +1,4 @@
-from datetime import datetime
-from time import timezone
+from datetime import datetime,timezone
 from sqlalchemy import Column, Integer, String, Boolean, DateTime
 from app.core.base import Base
 from sqlalchemy.orm import relationship
